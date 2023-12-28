@@ -128,11 +128,19 @@ input:hover{
   .form-control {
     width: 20%;
   }
+  .outputtable {
+    font-size: 10px;
+    margin: 10px;
+  }
 
 }
 
 @media only screen and (max-width: 600px) {
   .form-control {
     width: 100%;
+  }
+  .outputtable {
+    font-size: 8px;
+     margin: 1px;
   }
 }
